@@ -1,6 +1,6 @@
 <template>
 	<!-- <link href="//db.onlinewebfonts.com/c/4a24899e94d8236f671c1090cd9e068c?family=Canela" rel="stylesheet" type="text/css"/> -->
-	<div class="navbar">
+	<nav class="navbar">
 
 		<span class="menu_title">
 			<v-icon name="home" scale="2"/>
@@ -40,7 +40,7 @@
 			<v-icon name="shopping-bag" scale="2"/>
 		</span>
 
-	</div>
+	</nav>
 
 </template>
 
@@ -57,10 +57,6 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-	/*https://www.onlinewebfonts.com/download/4a24899e94d8236f671c1090cd9e068c*/
-	/*https://www.onlinewebfonts.com/download/1cbc0faa49cc60bfadb363d1a10c4c38*/
-	@import url(//db.onlinewebfonts.com/c/4a24899e94d8236f671c1090cd9e068c?family=Canela);
-	@import url(//db.onlinewebfonts.com/c/1cbc0faa49cc60bfadb363d1a10c4c38?family=BurberryStyreneBCyrWeb+BD);
 	.navbar {
 		/*text-align:center;*/
 		display:flex;
