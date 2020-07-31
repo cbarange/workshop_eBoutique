@@ -44,13 +44,17 @@
 	.selection-cocktail-items {
 		display: flex;
 		flex-flow: row wrap;
-		justify-content: space-evenly;
+		justify-content: center;
 		margin: 25px 0;
 	}
 
 	.selection-cocktail-item {
 		display: flex;
 		flex-flow: column nowrap;
+		margin: 0 calc(3vw + 25px);
+		width: 10%;
+		min-width: 115px;
+		max-width: 175px;
 	}
 
 	.selection-cocktail-item-title {
@@ -72,6 +76,7 @@
 		margin:0 auto;
 		padding:0 15px;
 		display: block;
+		border-radius: 50%;
 	}
 
 	.item-ingredient-text {
@@ -85,7 +90,7 @@
 		display: block;
 		margin: 25px auto;
 		text-align: center;
-		
+
 		/* or if we want inline display */
 		/*margin: 25px 0 25px 50%;
 		transform: translate(-50%, 0%);

@@ -41,8 +41,12 @@
 		flex-flow: row wrap;
 		justify-content:space-evenly;
 		color: #fff;
+		padding: 25px;
 	}
-	
+	.footer__top__right, .footer__top__left {
+		margin: 25px;
+	}
+
 	.footer__bottom {
 		width:100%;
 		background-color: #6C6D72;

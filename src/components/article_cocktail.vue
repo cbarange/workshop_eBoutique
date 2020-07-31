@@ -7,7 +7,7 @@
 
 			<div class="article-cocktail-items">
 				<div v-for="item in Array(4)" class="article-cocktail-item">
-					<img src="@/assets/article.png" alt=""/>
+					<img src="@/assets/article.png" alt="" style="width:100%;"/>
 					<div class="item-text">
 						<span class="item-title font-styreneb">Cocktails</span>
 						<p class="item-p font-canela">Une histoire amère (qui finit bien)</p>
@@ -42,7 +42,13 @@
 	.article-cocktail-items {
 		display: flex;
 		flex-flow: row wrap;
-		justify-content: space-evenly;
+		justify-content: center;
+	}
+	.article-cocktail-item {
+		margin: 0 25px;
+		width: 18%;
+		min-width: 260px;
+		max-width: 390px;
 	}
 
 	.item-text {
